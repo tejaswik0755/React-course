@@ -1,0 +1,29 @@
+h1 {
+  color: rebeccapurple;
+
+  font-style: oblique;
+}
+li {
+  color: lightgray;
+  padding-top: 3px;
+  font-size: 15px;
+}
+.success {
+  color: darkgreen;
+  background: lightgrey;
+  font-size: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+{
+  "persons": [
+    {
+      "name": "www",
+      "phone": "11122",
+      "id": "zc277HKholM"
+    },
+    {
+      "name": "teed",
+      "phone": "1122222",
+      "id": "vOTUDK_lfqQ"
+    },
+    {
+      "name": "www2",
+      "phone": "qq",
+      "id": "fJebCqqQSLA"
+    },
+    {
+      "name": "qqq",
+      "phone": "www",
+      "id": "7ZQfXD5snkg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

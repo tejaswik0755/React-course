@@ -1,4 +1,4 @@
-const Persons = ({ persons, newSearch }) => {
+const Persons = ({ persons, newSearch, deletePerson }) => {
   return (
     <>
       {persons.map(person => {
@@ -6,7 +6,11 @@ const Persons = ({ persons, newSearch }) => {
           return (
             <p key={person.id}>
               {person.name} {person.phone}
+              <button onClick={()=>{
+                    if(window.confirm(`Delete ${person.name}?`)){deletePerson(person.id)}
+                  }}>delete</button>
             </p>
+
           )
         }
       })}
