@@ -1,4 +1,4 @@
-const Persons = ({ persons, newSearch, deletePerson }) => {
+  const Persons = ({ persons, newSearch, deletePerson }) => {
   return (
     <>
       {persons.map(person => {
